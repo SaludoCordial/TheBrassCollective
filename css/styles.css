@@ -1,0 +1,214 @@
+/* General things */
+*{
+  font-family: 'Inria Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #8E8075
+}
+a:hover{
+  color: #D9BF8F
+}
+
+body { 
+    background: url(/images/bimage.png); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar-toggler {
+  color: #8E8075 !important;
+  border-color: #8E8075 !important;
+  
+}
+
+/* Navbar */
+nav{
+  padding-top: 1rem;
+}
+
+nav ul li a, nav ul li a:visited {
+  color:#8E8075 !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+nav ul li a:hover {
+  color: #D9BF8F !important;
+}
+
+nav ul li{
+  padding-left:2rem;
+}
+
+.logo {
+  float: left;
+}
+
+.collapse{
+  height: 100px !important;
+}
+
+@media (max-width: 1028px) {
+  .navlogo {
+    padding-bottom: 80px;
+  }
+  .title-image {
+    margin-left: 50px;
+    width: 80%;
+  }
+  .index-text {
+    margin: 150px 20px 0 30px;
+  }
+  .musician-image{
+    margin-bottom: 10%;
+  }
+  .musician-text{
+    margin-left: 5%;
+  }
+  .divresponsive{
+    padding-bottom: 200px !important;
+  }
+}
+
+  
+/* Index */
+.title-image {
+  width: 90%;
+  margin-top: 120px;
+  margin-right: 70px;
+  border: 4px solid #8E8075;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.index-page {
+  text-align: center;
+}
+
+.index-text {
+  margin-top: 13%;
+  padding: 0 100px;
+  text-align: left;
+  font-family: Inria Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #D9BF8F
+}
+
+/* About Us */
+
+.musician-title{
+  color: #D9BF8F;
+  font-family: Inria Sans;
+  padding: 7% 0;
+}
+
+.musician-image {
+  width: 50%;
+  border: 4px solid #8E8075;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.dearbhlaimage{
+  margin-top: 7%;
+}
+
+.musician-text {
+  text-align: left;
+  font-family: Inria Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #D9BF8F;
+  padding-right: 8%;
+}
+
+.musicians-text1 {
+  padding-top: 2%;
+}
+
+.musicians-text2 {
+  padding-top: 6%;
+}
+
+/* Sección Media */
+
+.video-youtube{
+  border: 4px solid #8E8075;
+  border-radius: 10px;
+  margin-bottom: 10%;
+} 
+
+.div-youtube {
+  text-align: center;
+}
+
+/* Footer */
+
+.footer-icons {
+  color: #8E8075;
+  padding-top: 3%;
+}
+.footer-icon{
+  padding-left: 1%;
+}
+
+/* CONTACT FORM */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #8E8075; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #8E8075;
+  color: #D9BF8F;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker color */
+input[type=submit]:hover {
+  background-color: #D9BF8F;
+  color: #8E8075
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  
+  padding: 20px;
+}
+
+input, textarea, select {
+  background-color: #363842;
+}
+
+select {
+  color: #D9BF8F;
+}
+
+.divcontainer {
+  padding: 0 20%;
+}
+
+label {
+  color:#D9BF8F;
+}
