@@ -12,7 +12,7 @@ a:hover{
 }
 
 body { 
-    background: url(./images/bimage.png); 
+    background: url(images/bimage.png); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
