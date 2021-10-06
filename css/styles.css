@@ -81,7 +81,7 @@ nav ul li{
     padding-bottom: 200px !important;
   }
   .navcontainer{
-    text-align: right;
+    text-align: right !important;
   }
   .divcontainer {
     padding: 0 !important;
