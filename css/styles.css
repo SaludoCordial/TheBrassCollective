@@ -245,5 +245,5 @@ label {
 /* Merchandise */
 
 .comingsoon {
-  padding-bottom: 21%;
+  padding-bottom: 21% !important;
 }
