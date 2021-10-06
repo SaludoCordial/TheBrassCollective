@@ -98,6 +98,9 @@ nav ul li{
     font-size: 3rem !important;
     font-weight: bold;
   }
+  footer {
+    padding-top: 60% !important;
+  }
 }
 
   
