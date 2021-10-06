@@ -52,7 +52,7 @@ nav ul li{
   height: 100px !important;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 1028px) { 
   .navlogo {
     padding-bottom: 80px;
   }
@@ -62,15 +62,41 @@ nav ul li{
   }
   .index-text {
     margin: 150px 20px 0 30px;
+    font-size: 3rem !important;
+    line-height: 3.5rem !important;
   }
   .musician-image{
     margin-bottom: 10%;
   }
-  .musician-text{
+  .musician-text {
     margin-left: 5%;
+    font-size: 3rem !important;
+    line-height: 3.5rem !important;
+  }
+  h1 {
+    font-size: 5rem !important;
+    font-weight: bold !important;
   }
   .divresponsive{
     padding-bottom: 200px !important;
+  }
+  .navcontainer{
+    text-align: right;
+  }
+  .divcontainer {
+    padding: 0 !important;
+    text-align: center !important;
+  }
+  label {
+    font-size: xx-large !important;
+    margin-bottom: 10% !important;
+  }
+  input[type=submit] {
+    padding:23px 30px !important;
+  }
+  .botoncillo{
+    font-size: 3rem !important;
+    font-weight: bold;
   }
 }
 
