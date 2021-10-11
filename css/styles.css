@@ -52,7 +52,8 @@ nav ul li a,
 nav ul li a:visited {
   color: #8e8075 !important;
   font-weight: bold;
-  font-size: 1.5rem;
+  /* Texto del navbar */
+  font-size: 1.5rem; 
 }
 
 nav ul li a:hover {
@@ -73,7 +74,7 @@ nav ul li {
 
 @media (max-width: 1028px) {
   .navlogo {
-    padding-bottom: 80px;
+    padding-bottom: 100px;
   }
   .title-image {
     margin-left: 50px;
@@ -97,7 +98,7 @@ nav ul li {
     font-weight: bold !important;
   }
   .divresponsive {
-    padding-bottom: 200px !important;
+    padding-bottom: 380px !important;
   }
   .navcontainer {
     text-align: right !important;
@@ -119,6 +120,21 @@ nav ul li {
   }
   footer {
     padding-top: 60% !important;
+  }
+  .logoimg{
+    width:400px;
+    height: auto;
+  }
+  .navbar-toggler-icon {
+    height: 100px;
+    width: 100px;
+  }
+  .navbar-toggler-icon {
+    font-size: 3rem;
+  }
+  nav ul li a,
+  nav ul li a:visited {
+    font-size: 3rem !important;
   }
 }
 
