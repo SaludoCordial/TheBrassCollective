@@ -1,58 +1,77 @@
 /* General things */
-*{
-  font-family: 'Inria Sans', sans-serif;
+* {
+  font-family: "Inria Sans", sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #8E8075
+  color: #8e8075;
 }
-a:hover{
-  color: #D9BF8F
+a:hover {
+  color: #d9bf8f;
 }
 
-body { 
-    background: url(bimage.png); 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+/* STICKY FOOTER START */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -100px;
+}
+footer,
+.push {
+  height: 50px;
+}
+/* STICKY FOOTER END */
+
+body {
+  background: url(bimage.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .navbar-toggler {
-  color: #8E8075 !important;
-  border-color: #8E8075 !important;
-  
+  color: #8e8075 !important;
+  border-color: #8e8075 !important;
 }
 
 /* Navbar */
-nav{
+nav {
   padding-top: 1rem;
 }
 
-nav ul li a, nav ul li a:visited {
-  color:#8E8075 !important;
+nav ul li a,
+nav ul li a:visited {
+  color: #8e8075 !important;
   font-weight: bold;
   font-size: 1.5rem;
 }
 
 nav ul li a:hover {
-  color: #D9BF8F !important;
+  color: #d9bf8f !important;
 }
 
-nav ul li{
-  padding-left:2rem;
+nav ul li {
+  padding-left: 2rem;
 }
 
 .logo {
   float: left;
 }
 
-.collapse{
+.collapse {
   height: 100px !important;
 }
 
-@media (max-width: 1028px) { 
+@media (max-width: 1028px) {
   .navlogo {
     padding-bottom: 80px;
   }
@@ -65,7 +84,7 @@ nav ul li{
     font-size: 3rem !important;
     line-height: 3.5rem !important;
   }
-  .musician-image{
+  .musician-image {
     margin-bottom: 10%;
   }
   .musician-text {
@@ -77,10 +96,10 @@ nav ul li{
     font-size: 5rem !important;
     font-weight: bold !important;
   }
-  .divresponsive{
+  .divresponsive {
     padding-bottom: 200px !important;
   }
-  .navcontainer{
+  .navcontainer {
     text-align: right !important;
   }
   .divcontainer {
@@ -91,10 +110,10 @@ nav ul li{
     font-size: xx-large !important;
     margin-bottom: 10% !important;
   }
-  input[type=submit] {
-    padding:23px 30px !important;
+  input[type="submit"] {
+    padding: 23px 30px !important;
   }
-  .botoncillo{
+  .botoncillo {
     font-size: 3rem !important;
     font-weight: bold;
   }
@@ -103,13 +122,12 @@ nav ul li{
   }
 }
 
-  
 /* Index */
 .title-image {
   width: 90%;
   margin-top: 120px;
   margin-right: 70px;
-  border: 4px solid #8E8075;
+  border: 4px solid #8e8075;
   box-sizing: border-box;
   border-radius: 10px;
 }
@@ -127,25 +145,25 @@ nav ul li{
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-  color: #D9BF8F
+  color: #d9bf8f;
 }
 
 /* About Us */
 
-.musician-title{
-  color: #D9BF8F;
+.musician-title {
+  color: #d9bf8f;
   font-family: Inria Sans;
   padding: 7% 0;
 }
 
 .musician-image {
   width: 50%;
-  border: 4px solid #8E8075;
+  border: 4px solid #8e8075;
   box-sizing: border-box;
   border-radius: 10px;
 }
 
-.dearbhlaimage{
+.dearbhlaimage {
   margin-top: 7%;
 }
 
@@ -156,7 +174,7 @@ nav ul li{
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-  color: #D9BF8F;
+  color: #d9bf8f;
   padding-right: 8%;
 }
 
@@ -170,11 +188,11 @@ nav ul li{
 
 /* Sección Media */
 
-.video-youtube{
-  border: 4px solid #8E8075;
+.video-youtube {
+  border: 4px solid #8e8075;
   border-radius: 10px;
   margin-bottom: 10%;
-} 
+}
 
 .div-youtube {
   text-align: center;
@@ -183,30 +201,33 @@ nav ul li{
 /* Footer */
 
 .footer-icons {
-  color: #8E8075;
+  color: #8e8075;
   padding-top: 3%;
 }
-.footer-icon{
+.footer-icon {
   padding-left: 1%;
 }
 
 /* CONTACT FORM */
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], input[type=email], select, textarea {
+input[type="text"],
+input[type="email"],
+select,
+textarea {
   width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #8E8075; /* Gray border */
+  padding: 12px; /* Some padding */
+  border: 1px solid #8e8075; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #8E8075;
-  color: #D9BF8F;
+input[type="submit"] {
+  background-color: #8e8075;
+  color: #d9bf8f;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -214,24 +235,26 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker color */
-input[type=submit]:hover {
-  background-color: #D9BF8F;
-  color: #8E8075
+input[type="submit"]:hover {
+  background-color: #d9bf8f;
+  color: #8e8075;
 }
 
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  
+
   padding: 20px;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
   background-color: #363842;
 }
 
 select {
-  color: #D9BF8F;
+  color: #d9bf8f;
 }
 
 .divcontainer {
@@ -239,11 +262,17 @@ select {
 }
 
 label {
-  color:#D9BF8F;
+  color: #d9bf8f;
 }
 
 /* Merchandise */
 
 .comingsoon {
   padding-bottom: 21% !important;
+}
+
+/* BOOTSTRAP FIX */
+
+.row {
+  --bs-gutter-x: 0 !important;
 }
