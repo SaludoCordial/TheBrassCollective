@@ -136,6 +136,10 @@ nav ul li {
   nav ul li a:visited {
     font-size: 3rem !important;
   }
+  .footer-icon{
+    font-size: 60px;
+    padding-right: 40px;
+  }
 }
 
 /* Index */
