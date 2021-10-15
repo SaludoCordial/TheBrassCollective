@@ -73,6 +73,9 @@ nav ul li {
 }
 
 @media (max-width: 1028px) {
+  .container{
+    max-width: 950px;
+  }
   .navlogo {
     padding-bottom: 100px;
   }
