@@ -99,15 +99,10 @@
           const reasonValue = document.getElementById("reason").value;
           const messageValue = document.getElementById("message").value;
           let cuerpodelmensaje = (
-            "Here are your values:\n\n email : " +
-            emailValue +
-            "\nname: " +
-            nameValue +
-            "\nreason:" +
-            reasonValue +
-            "\nmessage:" +
-            messageValue
-
+           `${emailValue} (${nameValue}) sends: 
+            reason:${reasonValue}
+            ${messageValue}
+           `
           );
 
           const aElement = document.createElement('a');
