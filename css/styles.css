@@ -72,79 +72,6 @@ nav ul li {
     height: 100px !important;
 }
 
-@media (max-width: 1028px) {
-    .container {
-        max-width: 950px;
-    }
-    .navlogo {
-        padding-bottom: 100px;
-    }
-    .title-image {
-        margin-left: 50px;
-        width: 80%;
-    }
-    .index-text {
-        margin: 150px 20px 0 30px;
-        font-size: 3rem !important;
-        line-height: 3.5rem !important;
-    }
-    .musician-image {
-        margin-bottom: 10%;
-    }
-    .musician-text {
-        margin-left: 5%;
-        font-size: 3rem !important;
-        line-height: 3.5rem !important;
-    }
-    h1 {
-        font-size: 5rem !important;
-        font-weight: bold !important;
-    }
-    .divresponsive {
-        padding-bottom: 380px !important;
-    }
-    .navcontainer {
-        text-align: right !important;
-    }
-    .divcontainer {
-        padding: 0 !important;
-        text-align: center !important;
-    }
-    label {
-        font-size: xx-large !important;
-        margin-bottom: 10% !important;
-    }
-    input[type="submit"] {
-        padding: 23px 30px !important;
-    }
-    .botoncillo {
-        font-size: 3rem !important;
-        font-weight: bold;
-    }
-    footer {
-        padding-top: 60% !important;
-    }
-    .logoimg {
-        width: 400px;
-        height: auto;
-    }
-    .navbar-toggler-icon {
-        height: 100px;
-        width: 100px;
-    }
-    .navbar-toggler-icon {
-        font-size: 3rem;
-    }
-    nav ul li a,
-    nav ul li a:visited {
-        font-size: 3rem !important;
-    }
-    .footer-icon {
-        font-size: 60px;
-        padding-right: 40px;
-    }
-}
-
 /* Index */
 
 .index-img-cont {
@@ -162,7 +89,6 @@ nav ul li {
     position: relative;
     bottom: 70px;
     box-sizing: border-box;
-    border-radius: 10px;
     width: 100%;
 }
 
@@ -171,7 +97,7 @@ nav ul li {
 }
 
 .index-text {
-    margin-top: 130px;
+    margin-top: 100px;
     padding: 0 100px;
     text-align: justify;
     font-family: Inria Sans;
@@ -198,7 +124,7 @@ nav ul li {
 }
 
 .elliot-image {
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
 .pedro-cases-img {
@@ -210,7 +136,11 @@ nav ul li {
 }
 
 .dearbhlaimage {
-    margin-top: 7%;
+    margin-top: 170px;
+}
+
+.marick-img {
+    margin-top: 50px;
 }
 
 .musician-text {
@@ -322,4 +252,82 @@ label {
 
 .row {
     --bs-gutter-x: 0 !important;
+}
+
+@media (max-width: 1028px) {
+    .container {
+        max-width: 950px;
+    }
+    .navlogo {
+        padding-bottom: 100px;
+    }
+    .index-img-cont {
+        width: 800px;
+        position: relative;
+        left: 20%;
+        margin-bottom: 100px;
+    }
+    .title-image {
+        position: inherit;
+    }
+    .index-text {
+        margin: 150px 20px 0 30px;
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    .musician-image {
+        margin-bottom: 10%;
+    }
+    .musician-text {
+        margin-left: 5%;
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    h1 {
+        font-size: 5rem;
+        font-weight: bold;
+    }
+    .divresponsive {
+        padding-bottom: 380px;
+    }
+    .navcontainer {
+        text-align: right;
+    }
+    .divcontainer {
+        padding: 0;
+        text-align: center;
+    }
+    label {
+        font-size: xx-large;
+        margin-bottom: 10%;
+    }
+    input[type="submit"] {
+        padding: 23px 30px;
+    }
+    .botoncillo {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    footer {
+        padding-top: 60%;
+    }
+    .logoimg {
+        width: 400px;
+        height: auto;
+    }
+    .navbar-toggler-icon {
+        height: 100px;
+        width: 100px;
+    }
+    .navbar-toggler-icon {
+        font-size: 3rem;
+    }
+    nav ul li a,
+    nav ul li a:visited {
+        font-size: 3rem;
+    }
+    .footer-icon {
+        font-size: 60px;
+        padding-right: 40px;
+    }
 }
