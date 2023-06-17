@@ -259,6 +259,12 @@ label {
   width: 50%;
   font-size: 1rem;
 }
+.banner-hide-desktop {
+  display: none;
+}
+.img-banner-desktop {
+  height: 12rem;
+}
 
 @media (max-width: 1028px) {
   .container {
@@ -345,5 +351,18 @@ label {
 
   .push {
     height: 50px;
+  }
+
+  .banner-hide-phone {
+    display: none;
+  }
+  .banner-hide-desktop {
+    display: inherit;
+    margin-left: 3rem;
+  }
+  .banner-parent-desktop {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
 }

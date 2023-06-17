@@ -68,7 +68,11 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <div
+              class="collapse navbar-collapse"
+              style="z-index: 100"
+              id="navbarTogglerDemo01"
+            >
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                   <a class="nav-link" href="index.html">Home</a>
@@ -94,33 +98,50 @@
         </nav>
       </div>
       <!-- BANNER NEW CD -->
-      <div class="container d-flex justify-content-center">
-        <div class="alert alert-primary banner" role="alert">
-          <h4
-            onclick="window.location.href = '/merchandise.html'"
-            class="alert-heading"
-            style="cursor: pointer"
+      <div class="d-flex justify-content-center">
+        <div
+          class="d-flex py-3 align-items-center flex-lg-row flex-sm-column alert alert-primary banner"
+          role="alert"
+        >
+          <div
+            class="pointer h-100 w-100 d-flex justify-content-center align-items-center"
           >
-            🎧 New CD Release!
-          </h4>
-          <p>
-            Introducing "International Voyage" - an extraordinary musical
-            journey around the world.
-          </p>
-          <hr />
-          <p class="mb-0">
-            Available now in
-            <a target="_blank" href="https://orcd.co/q4qjknd" class="pe-auto"
-              >stores</a
-            >
-            and
-            <a
-              target="_blank"
-              href="https://www.primton.de/international-voyage.html"
-              class="pe-auto"
-              >online</a
-            >.
-          </p>
+            <img
+              onclick="window.location.href = '/merchandise.html'"
+              class="banner-hide-phone img-banner-desktop"
+              src="./images/tbc-cd1.jpg"
+            />
+          </div>
+          <div class="mx-md-3">
+            <h2 class="alert-heading banner-parent-desktop">
+              <span class="h-25 mx-3 banner-hide-desktop">
+                <img
+                  onclick="window.location.href = '/merchandise.html'"
+                  class=""
+                  style="height: 150px"
+                  src="./images/tbc-cd1.jpg"
+              /></span>
+              New CD Release!
+            </h2>
+            <p class="banner-hide-phone">
+              Introducing "International Voyage" - an extraordinary musical
+              journey around the world.
+            </p>
+            <hr />
+            <p class="mb-0">
+              Available now to
+              <a target="_blank" href="https://orcd.co/q4qjknd" class="pe-auto"
+                >download or stream</a
+              >
+              and
+              <a
+                target="_blank"
+                href="https://www.primton.de/international-voyage.html"
+                class="pe-auto"
+                >to purchase as a CD</a
+              >.
+            </p>
+          </div>
         </div>
       </div>
 
